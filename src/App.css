@@ -1,0 +1,122 @@
+/* app.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.heading-container {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: #ecf0f1;
+  height: 500px; /* Adjust the height as needed */
+}
+
+.screen-container {
+  padding: 20px;
+  background-color: #bdc3c7;
+  border-bottom: 2px solid #3498db;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-input {
+  width: 200%;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+#calculatorText {
+  width: 100%;
+  padding: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 1px 0; /* Adjusted margin to reduce space between button rows */
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  margin: 5px; /* Increased margin here */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Button colors */
+.button-1,
+.button-2,
+.button-3,
+.button-4,
+.button-5,
+.button-6,
+.button-7,
+.button-8,
+.button-9,
+.zero-button {
+  background-color: #d35400;
+  color: #fff;
+}
+
+.times-button,
+.divide-button,
+.add-button,
+.minus-button,
+.equals-button {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.dot-button {
+  background-color: #525252;
+  color: #ffffff;
+}
+
+/* Clear button styling */
+.clear-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Additional styling */
+.button-container {
+  padding: 20px;
+}
